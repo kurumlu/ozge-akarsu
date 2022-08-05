@@ -49,12 +49,12 @@ const Footer = () => {
               DEV
             </a>
             <a
-              href="/about"
+              href="/aboutMe"
               className={"transition-colors hover:text-yellow-500"}
               target="_blank"
               rel="noreferrer"
             >
-              ABOUT
+              ABOUT ME
             </a>
           </div>
         </div>
