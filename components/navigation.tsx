@@ -8,10 +8,11 @@ const Navigation = () => {
         <Link href="/">
           <a
             className={
-              "font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white"
+              "font-kate text-6xl leading-relaxed  font-bold tracking-wider transition-colors text-gray-900 hover:text-sky-500 capitalize dark:text-white"
             }
           >
-            OZGE AKARSU
+            <p>ozge</p>
+            <p className={"pl-16"}>akarsu</p>
           </a>
         </Link>
       </div>
