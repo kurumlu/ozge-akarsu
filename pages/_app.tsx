@@ -1,9 +1,9 @@
 import React from 'react';
-import { AppProps } from "next/app";
-import "tailwindcss/tailwind.css";
-import Footer from "../components/footer";
-import Navigation from "../components/navigation";
-import { ThemeProvider } from "next-themes";
+import { AppProps } from 'next/app';
+import 'tailwindcss/tailwind.css';
+import Footer from '../components/footer';
+import Navigation from '../components/navigation';
+import { ThemeProvider } from 'next-themes';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
