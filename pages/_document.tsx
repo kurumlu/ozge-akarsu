@@ -19,12 +19,12 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-        {/* <title>My new cool app</title> */}
+          {/* <title>My new cool app</title> */}
           <link rel="icon" href="/favicon.ico" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
-            href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&family=Montserrat:wght@300;900&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&family=Montserrat:wght@300;900&family=Playfair+Display&family=zilla:wght@300&display=swap"
             rel="stylesheet"
           />
         </Head>

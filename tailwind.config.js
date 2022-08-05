@@ -4,6 +4,9 @@ module.exports = {
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {
+      spacing: {
+        128: '32rem',
+      },
       screens: {
         // mobile: '475px',
         // => @media (min-width: 475px) { ... }
@@ -19,6 +22,8 @@ module.exports = {
       raleway: ['Raleway', 'sans-serif'],
       montserrat: ['Montserrat', 'serif'],
       kate: ['Kate', 'serif'],
+      playfair: ['"Playfair Display"', 'serif'],
+      zilla: ['"Zilla Slab"', 'serif'],
     },
   },
   variants: {

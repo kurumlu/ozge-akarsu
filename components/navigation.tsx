@@ -4,52 +4,21 @@ import React from 'react';
 const Navigation = () => {
   return (
     <div className="sticky top-0 z-20 py-2 bg-white md:py-6 md:mb-6 dark:bg-black">
-      <div className="container px-4 mx-auto lg:max-w-4xl flex items-center justify-between">
+      <div className="container px-4 mx-auto flex items-center justify-between">
         <Link href="/">
           <a
             className={
-              'font-kate text-6xl leading-relaxed  font-bold tracking-wider transition-colors text-gray-900 hover:text-sky-500 capitalize dark:text-white'
+              'font-kate text-6xl leading-relaxed  font-bold tracking-wider transition-colors text-gray-900 hover:text-red-700 capitalize dark:text-white'
             }
           >
-            <p>ozge</p>
+            <p>Özge</p>
             <p className={'pl-16'}>akarsu</p>
           </a>
         </Link>
       </div>
-      <div className="flex flex-col justify-between lg:flex-row items-center">
-        <div className=" font-raleway flex flex-wrap pt-2 sm:space-x-4 space-x-2 font-medium lg:pt-0">
-          <a
-            href="#"
-            className={'transition-colors hover:text-yellow-500'}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Twitter
-          </a>
-          <a
-            href="#"
-            className={'transition-colors hover:text-yellow-500'}
-            target="_blank"
-            rel="noreferrer"
-          >
-            LinkedIn
-          </a>
-          <a
-            href="#"
-            className={'transition-colors hover:text-yellow-500'}
-            target="_blank"
-            rel="noreferrer"
-          >
-            GitHub
-          </a>
-          <a
-            href="#"
-            className={'transition-colors hover:text-yellow-500'}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Medium
-          </a>
+      {/*  IF NAVIGATION MENU WANTED THIS CODE CAN BE USED
+           <div className="font-raleway font-medium container flex flex-col lg:flex-row justify-between flex-nowrap space-between flex-end items-center mx-auto lg:max-w-4xl">
+        <div className="grid gap-4 grid-cols-4">
           <a
             href="#"
             className={'transition-colors hover:text-yellow-500'}
@@ -66,8 +35,8 @@ const Navigation = () => {
           >
             ABOUT ME
           </a>
-        </div>
-      </div>
+        </div> 
+      </div>*/}
     </div>
   );
 };

@@ -1,13 +1,14 @@
 import React from 'react';
 import type { NextPage } from 'next';
-import Head from 'next/head';
 import About from '../components/about';
+import Grid from '../components/grid';
 
 const Home: NextPage = () => {
   return (
     <div className="space-y-14 lg:space-y-24">
       <main className="max-w-4xl mx-auto mt-16 antialiased">
-        <About />
+        <Grid />
+        {/* <About /> */}
         <div className="container mx-auto"></div>
       </main>
     </div>
