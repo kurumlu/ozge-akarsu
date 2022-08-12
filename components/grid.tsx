@@ -1,20 +1,19 @@
 import React from 'react';
 import Image from 'next/image';
-import bir from '../public/images/bir.png';
-import iki from '../public/images/iki.png';
-import uc from '../public/images/uc.png';
-import dort from '../public/images/dort.png';
-import koyun from '../public/images/koyun.jpg';
-import bayan from '../public/images/bayan.jpg';
+import bir from '../public/images/1.png';
+import iki from '../public/images/2.png';
+import uc from '../public/images/3.png';
+import dort from '../public/images/4.png';
+// import koyun from '../public/images/koyun.jpg';
+// import bayan from '../public/images/bayan.jpg';
 
 const Grid = () => {
   const renderGridElement = (href: string, title: string, imageSource: any) => (
     <div className=" border border-white  border-l-black  h-128 relative">
-      <div className="lg:mt-12 lg:pr-4 mb-10 pl-1">
+      <div className="lg:mt-12 lg:pr-4 mb-10 pl-1 w-2/5">
         <Image
           src={imageSource}
           alt="ProfBirile"
-          className="rounded-full"
           priority={true}
           placeholder="blur"
         />
@@ -34,10 +33,10 @@ const Grid = () => {
   );
 
   return (
-    <div className="font-zilla text-xl container mx-auto lg:max-w-4xl">
+    <div className="font-raleway text-xl container mx-auto lg:max-w-4xl">
       <div className="grid grid-cols-4 gap-4 min-h-60">
-        {renderGridElement('/aboutMe', 'About me', bayan)}
-        {renderGridElement('#', 'Animations', koyun)}
+        {renderGridElement('/aboutMe', 'About me', bir)}
+        {renderGridElement('#', 'Animations', iki)}
         {renderGridElement('#', 'Gifs / Illustrations', uc)}
         {renderGridElement('#', 'Paintings', dort)}
       </div>
