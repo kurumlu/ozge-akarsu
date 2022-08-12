@@ -21,7 +21,9 @@ const Grid = () => {
       <div className={'hover:animate-bounce'}>
         <a
           href={href}
-          className={'transition-colors hover:text-red-700 pl-2'}
+          className={
+            'transition-colors text-xs lg:text-lg hover:text-red-700 pl-2'
+          }
           target="_blank"
           rel="noreferrer"
         >
