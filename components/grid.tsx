@@ -10,7 +10,7 @@ import dort from '../public/images/4.png';
 const Grid = () => {
   const renderGridElement = (href: string, title: string, imageSource: any) => (
     <div className=" border border-white  border-l-black  h-128 relative">
-      <div className="lg:mt-12 lg:pr-4 mb-10 pl-1 w-2/5">
+      <div className=" mt-6 lg:mt-12 lg:pr-4 mb-10 pl-1 w-2/5">
         <Image
           src={imageSource}
           alt="ProfBirile"
