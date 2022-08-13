@@ -3,7 +3,7 @@ import React from 'react';
 
 const Navigation = () => {
   return (
-    <div className="sticky top-0 z-20 py-2 bg-white md:pt-6 md:mb-6  bg-slate-50 dark:bg-black">
+    <div className="sticky top-0 z-20 py-2 bg-white md:pt-6 md:mb-6 dark:bg-black">
       <div className="container px-4 mx-auto flex items-center justify-between">
         <Link href="/">
           <a
@@ -16,7 +16,7 @@ const Navigation = () => {
           </a>
         </Link>
       </div>
-      {/*  IF NAVIGATION MENU WANTED THIS CODE CAN BE USED
+      {/*  IF NAVIGATION MENU IS WANTED THIS CODE CAN BE USED
            <div className="font-raleway font-medium container flex flex-col lg:flex-row justify-between flex-nowrap space-between flex-end items-center mx-auto lg:max-w-4xl">
         <div className="grid gap-4 grid-cols-4">
           <a
