@@ -28,15 +28,16 @@ const Grid = () => {
           target="_blank"
           rel="noreferrer"
         >
-          {title}{' '}
-          <span className={'ml-1 invisible lg:visible'}>.............</span>
+          {title} <span className={'ml-1 invisible lg:visible'}>.........</span>
         </a>
-        <div className={'text-xs ml-2 my-0.5'}>something short or not</div>
+        <div className={'text-xxs lg:text-xs ml-2 my-0.5'}>
+          something short or not
+        </div>
         <div className={'h-1.5 bg-black  rounded px-1'}></div>
-        <div className={'text-xs ml-2 mt-2'}>
+        <div className={'text-xxs lg:text-xs  ml-2 mt-2'}>
           alle goedheiden aan de anderen geeft en niets bewaard voor zichzelf
         </div>
-        <div className={'text-xs ml-2 mt-2'}>
+        <div className={'text-xxs lg:text-xs ml-2 mt-2'}>
           alle goedheiden aan de anderen geeft en niets bewaard voor zichzelf
         </div>
       </div>
