@@ -18,24 +18,33 @@ const Grid = () => {
           placeholder="blur"
         />
       </div>
-      <div className={'hover:animate-bounce'}>
+      {/* <div className={'hover:animate-bounce'}> */}
+      <div>
         <a
           href={href}
           className={
-            'transition-colors text-xs lg:text-lg hover:text-red-700 pl-2'
+            'transition-colors uppercase font-bold text-red-700 hover:text-black pl-2 ml-1'
           }
           target="_blank"
           rel="noreferrer"
         >
-          {title}
+          {title}{' '}
+          <span className={'ml-1 invisible lg:visible'}>.............</span>
         </a>
-        <div className={'h-1.5 bg-red-700 rounded px-1'}></div>
+        <div className={'text-xs ml-2 my-0.5'}>something short or not</div>
+        <div className={'h-1.5 bg-black  rounded px-1'}></div>
+        <div className={'text-xs ml-2 mt-2'}>
+          alle goedheiden aan de anderen geeft en niets bewaard voor zichzelf
+        </div>
+        <div className={'text-xs ml-2 mt-2'}>
+          alle goedheiden aan de anderen geeft en niets bewaard voor zichzelf
+        </div>
       </div>
     </div>
   );
 
   return (
-    <div className="font-raleway text-xl container mx-auto lg:max-w-4xl">
+    <div className="font-playfair text-sm container mx-auto lg:max-w-4xl">
       <div className="grid grid-cols-4 gap-4 min-h-60">
         {renderGridElement('/aboutMe', 'About me', bir)}
         {renderGridElement('#', 'Animations', iki)}

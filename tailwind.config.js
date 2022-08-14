@@ -7,16 +7,7 @@ module.exports = {
       spacing: {
         128: '32rem',
       },
-      screens: {
-        // mobile: '475px',
-        // => @media (min-width: 475px) { ... }
-        // tablet: '640px',
-        // => @media (min-width: 640px) { ... }
-        // laptop: '1024px',
-        // => @media (min-width: 1024px) { ... }
-        // desktop: '1280px',
-        // => @media (min-width: 1280px) { ... }
-      },
+      screens: {},
     },
     fontFamily: {
       raleway: ['Raleway', 'sans-serif'],
