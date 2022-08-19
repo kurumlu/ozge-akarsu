@@ -57,7 +57,7 @@ const Grid = () => {
         {renderGridElement('#', 'Films', iki)}
         {renderGridElement('#', 'Gifs ', uc)}
         {renderGridElement('#', 'Paintings', dort, 'Illustrations')}
-        {renderGridElement('#', 'C o n t a c t ', uc)}
+        {renderGridElement('#', 'Contact ', uc)}
       </div>
     </div>
   );
