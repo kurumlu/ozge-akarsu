@@ -28,7 +28,7 @@ const Grid = () => {
         <a
           href={href}
           className={
-            'transition-colors  font-bold text-pink-500 hover:text-black pl-2 ml-1 text-xs lg:text-sm'
+            'transition-colors  font-bold text-pink-500 hover:text-black pl-2 ml-1 text-xs lg:text-lg'
           }
           target="_blank"
           rel="noreferrer"
