@@ -3,12 +3,11 @@ import React from 'react';
 
 const Navigation = () => {
   return (
-    <div className="sticky top-0 z-20 py-2 bg-white md:pt-6 md:mb-6 dark:bg-black">
+    <div className="sticky top-0 z-20 py-2 md:pt-6 md:mb-6 dark:bg-black">
       <div className="container px-4 mx-auto flex items-center justify-between">
         <Link href="/">
           <a
-            className={
-              'font-raleway text-5xl lg:text-8xl leading-relaxed  font-bold tracking-wider transition-colors text-gray-900 hover:text-red-700 capitalize dark:text-white'
+            className={"font-source font-black text-5xl lg:text-8xl leading-relaxed  font-bold tracking-wider transition-colors text-gray-900 hover:text-pink-500 capitalize dark:text-white'
             }
           >
             <p>Özge Akarsu</p>

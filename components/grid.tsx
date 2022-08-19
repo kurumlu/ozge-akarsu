@@ -14,15 +14,22 @@ const Grid = () => {
     imageSource: any,
     secondTitle = ''
   ) => (
-    <div className="border border-white  border-l-black  h-80 lg:h-128 relative">
-      <div className="mt-8 lg:mt-12 lg:pr-4 mb-10 pl-1 w-2/5">
-        <Image
-          src={imageSource}
-          alt="ProfBirile"
-          priority={true}
-          placeholder="blur"
-        />
+    <div className="border border-slate-50 border-l-black last:border-r-black h-80 lg:h-max relative">
+      <div className="h-full">
+        <div className="text-lg font-black pl-2 pt-2 pb-36">PART</div>
+        {/* <div className="h-max">  */}
+        <div className="h-96">
+          <div className="mt-8 lg:mt-12 lg:pr-4 mb-10 pl-1 w-2/5">
+            <Image
+              src={imageSource}
+              alt="ProfBirile"
+              priority={true}
+              placeholder="blur"
+            />
+          </div>
+        </div>
       </div>
+
       {/* <div className={'hover:animate-bounce'}> */}
       <div>
         <a
@@ -40,10 +47,12 @@ const Grid = () => {
           something short or not
         </div>
         <div className={'h-1.5 bg-black  rounded px-1'}></div>
-        <div className={'text-xxs lg:text-xs  ml-2 mt-2'}>
+        {/* text-justify */}
+        <div className={'text-xxs lg:text-xs mx-2 mt-2'}>
           alle goedheiden aan de anderen geeft en niets bewaard voor zichzelf
         </div>
-        <div className={'text-xxs lg:text-xs ml-2 mt-2'}>
+        {/* text-justify */}
+        <div className={'text-xxs lg:text-xs mx-2 mt-2'}>
           alle goedheiden aan de anderen geeft en niets bewaard voor zichzelf
         </div>
       </div>
@@ -51,8 +60,8 @@ const Grid = () => {
   );
 
   return (
-    <div className="font-ibm text-sm container mx-auto lg:max-w-6xl">
-      <div className="grid grid-cols-5 gap-4 min-h-60">
+    <div className="text-sm container mx-auto">
+      <div className="grid grid-cols-5 gap-4">
         {renderGridElement('/aboutMe', 'Aboutme', bir)}
         {renderGridElement('#', 'Films', iki)}
         {renderGridElement('#', 'Gifs ', uc)}
