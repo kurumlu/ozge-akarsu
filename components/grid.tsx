@@ -52,16 +52,11 @@ const Grid = () => {
 
   return (
     <div className="font-ibm text-sm container mx-auto lg:max-w-6xl">
-      <div className="grid grid-cols-5 min-h-60">
-        {renderGridElement('/aboutMe', 'A b o u t m e', bir)}
-        {renderGridElement('#', 'F i l m s', iki)}
-        {renderGridElement('#', 'G i f s ', uc)}
-        {renderGridElement(
-          '#',
-          'P a  i n t i n g s',
-          dort,
-          'I l l u s t r a t i o n s'
-        )}
+      <div className="grid grid-cols-5 gap-4 min-h-60">
+        {renderGridElement('/aboutMe', 'Aboutme', bir)}
+        {renderGridElement('#', 'Films', iki)}
+        {renderGridElement('#', 'Gifs ', uc)}
+        {renderGridElement('#', 'Paintings', dort, 'Illustrations')}
         {renderGridElement('#', 'C o n t a c t ', uc)}
       </div>
     </div>
