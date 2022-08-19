@@ -45,7 +45,7 @@ const Grid = () => {
   );
 
   return (
-    <div className="font-playfair text-sm container mx-auto lg:max-w-4xl">
+    <div className="font-heebo text-sm container mx-auto lg:max-w-4xl">
       <div className="grid grid-cols-4 gap-4 min-h-60">
         {renderGridElement('/aboutMe', 'About me', bir)}
         {renderGridElement('#', 'Animations', iki)}
