@@ -21,7 +21,6 @@ module.exports = {
     fontFamily: {
       raleway: ['Raleway', 'sans-serif'],
       montserrat: ['Montserrat', 'serif'],
-      heebo: ['Heebo', 'serif'],
       source: ['"Source Code Pro"', 'serif'],
       playfair: ['"Playfair Display"', 'serif'],
       zilla: ['"Zilla Slab"', 'serif'],

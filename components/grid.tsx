@@ -23,12 +23,13 @@ const Grid = () => {
         <a
           href={href}
           className={
-            'transition-colors uppercase font-bold text-red-700 hover:text-black pl-2 ml-1 text-xs lg:text-sm'
+            'transition-colors  font-bold text-red-700 hover:text-black pl-2 ml-1 text-xs lg:text-sm'
           }
           target="_blank"
           rel="noreferrer"
         >
-          {title} <span className={'ml-1 invisible lg:visible'}>.........</span>
+          {title}
+          {/*  <span className={'ml-1 invisible lg:visible'}>....</span> */}
         </a>
         <div className={'text-xxs lg:text-xs ml-2 my-0.5'}>
           something short or not
@@ -47,9 +48,9 @@ const Grid = () => {
   return (
     <div className="font-ibm text-sm container mx-auto lg:max-w-4xl">
       <div className="grid grid-cols-4 gap-4 min-h-60">
-        {renderGridElement('/aboutMe', 'About me', bir)}
-        {renderGridElement('#', 'Animations', iki)}
-        {renderGridElement('#', 'Gifs / Illustrations', uc)}
+        {renderGridElement('/aboutMe', 'A b o u t m e', bir)}
+        {renderGridElement('#', 'A n i m a t i o n s', iki)}
+        {renderGridElement('#', 'G i f s / I l l u s t r a t i o n s', uc)}
         {renderGridElement('#', 'Paintings', dort)}
       </div>
     </div>
