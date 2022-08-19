@@ -8,7 +8,12 @@ import dort from '../public/images/4.png';
 // import bayan from '../public/images/bayan.jpg';
 
 const Grid = () => {
-  const renderGridElement = (href: string, title: string, imageSource: any) => (
+  const renderGridElement = (
+    href: string,
+    title: string,
+    imageSource: any,
+    secondTitle = ''
+  ) => (
     <div className="border border-white  border-l-black  h-80 lg:h-128 relative">
       <div className="mt-8 lg:mt-12 lg:pr-4 mb-10 pl-1 w-2/5">
         <Image
@@ -29,7 +34,7 @@ const Grid = () => {
           rel="noreferrer"
         >
           {title}
-          {/*  <span className={'ml-1 invisible lg:visible'}>....</span> */}
+          {secondTitle ? <div className="ml-4">{secondTitle}</div> : null}
         </a>
         <div className={'text-xxs lg:text-xs ml-2 my-0.5'}>
           something short or not
@@ -46,12 +51,18 @@ const Grid = () => {
   );
 
   return (
-    <div className="font-ibm text-sm container mx-auto lg:max-w-4xl">
-      <div className="grid grid-cols-4 gap-4 min-h-60">
+    <div className="font-ibm text-sm container mx-auto lg:max-w-6xl">
+      <div className="grid grid-cols-5 min-h-60">
         {renderGridElement('/aboutMe', 'A b o u t m e', bir)}
-        {renderGridElement('#', 'A n i m a t i o n s', iki)}
-        {renderGridElement('#', 'G i f s / I l l u s t r a t i o n s', uc)}
-        {renderGridElement('#', 'Paintings', dort)}
+        {renderGridElement('#', 'F i l m s', iki)}
+        {renderGridElement('#', 'G i f s ', uc)}
+        {renderGridElement(
+          '#',
+          'P a  i n t i n g s',
+          dort,
+          'I l l u s t r a t i o n s'
+        )}
+        {renderGridElement('#', 'C o n t a c t ', uc)}
       </div>
     </div>
   );
