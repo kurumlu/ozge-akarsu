@@ -25,6 +25,7 @@ module.exports = {
       source: ['"Source Code Pro"', 'serif'],
       playfair: ['"Playfair Display"', 'serif'],
       zilla: ['"Zilla Slab"', 'serif'],
+      ibm: ['"IBM Plex Mono"', 'serif'],
     },
     fontSize: {
       xxs: '.5rem',
