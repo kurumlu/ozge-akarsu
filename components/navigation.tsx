@@ -7,7 +7,8 @@ const Navigation = () => {
       <div className="container px-4 mx-auto flex items-center justify-between">
         <Link href="/">
           <a
-            className={"font-source font-black text-5xl lg:text-8xl leading-relaxed  font-bold tracking-wider transition-colors text-gray-900 hover:text-pink-500 capitalize dark:text-white'
+            className={
+              'font-source font-black text-5xl lg:text-8xl leading-relaxed  font-bold tracking-wider transition-colors text-gray-900 hover:text-pink-500 capitalize dark:text-white'
             }
           >
             <p>Özge Akarsu</p>
