@@ -18,16 +18,27 @@ const Grid = () => {
       <div className="h-full">
         <div className="text-lg font-black pl-2 pt-2 pb-36">PART</div>
         {/* <div className="h-max">  */}
-        <div className="h-96">
-          <div className="mt-8 lg:mt-12 lg:pr-4 mb-10 pl-1 w-2/5">
-            <Image
-              src={imageSource}
-              alt="ProfBirile"
-              priority={true}
-              placeholder="blur"
-            />
-          </div>
+        <div
+          style={{
+            position: 'relative',
+            maxHeight: '250px',
+            height: '250px',
+            maxWidth: '250px',
+            width: '250px',
+          }}
+        >
+          {/* <div className="mt-8 lg:mt-12 lg:pr-4 mb-10 pl-1 w-2/5"> */}
+          <Image
+            src={imageSource}
+            layout="fixed"
+            height="250"
+            width="66"
+            alt="ProfBirile"
+            priority={true}
+            placeholder="blur"
+          />
         </div>
+        {/*         </div> */}
       </div>
 
       {/* <div className={'hover:animate-bounce'}> */}
