@@ -21,17 +21,17 @@ const Grid = () => {
         <div
           style={{
             position: 'relative',
-            maxHeight: '250px',
-            height: '250px',
-            maxWidth: '250px',
-            width: '250px',
+            maxHeight: '350px',
+            height: '350px',
+            maxWidth: '350px',
+            width: '350px',
           }}
         >
           {/* <div className="mt-8 lg:mt-12 lg:pr-4 mb-10 pl-1 w-2/5"> */}
           <Image
             src={imageSource}
             layout="fixed"
-            height="250"
+            height="350"
             width="66"
             alt="ProfBirile"
             priority={true}
